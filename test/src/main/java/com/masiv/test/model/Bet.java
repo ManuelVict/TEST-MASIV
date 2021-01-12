@@ -1,4 +1,4 @@
-package com.masiv.model;
+package com.masiv.test.model;
 public class Bet {
 	public int amount;
 	public int id;

@@ -1,10 +1,11 @@
-package com.masiv.repository;
+package com.masiv.test.repository;
 import java.util.List;
 import java.util.Map;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
-import com.masiv.model.Roulette;
+
+import com.masiv.test.model.Roulette;
 @Repository
 public class RouletteRepository {
 	public static final String key= "roulette";

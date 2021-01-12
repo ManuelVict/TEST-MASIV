@@ -1,4 +1,4 @@
-package com.masiv.model;
+package com.masiv.test.model;
 import java.util.ArrayList;
 public class Roulette {
 	 public boolean state;
