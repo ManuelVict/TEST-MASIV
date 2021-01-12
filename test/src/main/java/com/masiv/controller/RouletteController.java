@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.masiv.model.Roulette;
 import com.masiv.repository.RouletteRepository;
 @RestController
-@CrossOrigin
 @RequestMapping("/roulette")
 public class RouletteController {
 	@Autowired

@@ -1,6 +1,4 @@
 package com.masiv.model;
-import java.io.Serializable;
-import com.masiv.model.Bet;
 import java.util.ArrayList;
 public class Roulette {
 	 public boolean state;

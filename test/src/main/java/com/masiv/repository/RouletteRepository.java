@@ -18,6 +18,7 @@ public class RouletteRepository {
 		hashOperations.put(key,roulette.getId(),roulette.getNumber());
 	}
 	public List findAll() {
+		
 		return hashOperations.values(key);
 	}
 	public void close(Roulette roulette) {
@@ -27,6 +28,7 @@ public class RouletteRepository {
 		hashOperations.delete(key,id);
 	}
 	public Roulette findById(String id) {
+		
 		return (Roulette) hashOperations.get(key, id);
 	}
 	
